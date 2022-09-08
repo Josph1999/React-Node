@@ -18,10 +18,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    email: {
-        type: String,
-        required: true
-    },
     child: {
         type: Boolean,
         required: true
