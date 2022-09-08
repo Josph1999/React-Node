@@ -1,0 +1,23 @@
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+.input-styles {
+    display: flex;
+    flex-direction: row;
+    
+}
+.inputs-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+}
+.button {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,14 +1,13 @@
 import React from 'react';
-import UserForm from './components/UserForm';
+import Main from './components/main/main';
 import './App.css';
 
 const App = () => {
   return (
     <>
-    <h1>
-    Hello From react
-   </h1>
-   <UserForm />
+    <div className='main'>
+   <Main />
+   </div>
    </>
    
   );
