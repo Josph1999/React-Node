@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Checkbox from "@mui/material/Checkbox"
-import { Button } from "@mui/material"
+import { Button } from '@mui/material'
 import './styles.css'
 import { useDispatch } from "react-redux"
 import { addChildren, changeStep } from "../../redux/actions/actions"
@@ -28,6 +28,7 @@ const Children = () => {
 
     return (
         <div>
+            <h1>Do you have children?</h1>
             <div className="checkBoxes">
                 <div className="checkBox" value='yes'>
                     <Checkbox onClick={hasChildrenCheck} checked={hasChildren} />
